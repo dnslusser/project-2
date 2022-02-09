@@ -1,7 +1,9 @@
-const Addition = () => {
+const Addition = (props) => {
+  console.log(props);
+
   return (
     <h2>
-      Hello!
+      Hello! {props.numberOne}
     </h2>
   );
 };

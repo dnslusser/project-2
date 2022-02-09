@@ -10,7 +10,9 @@ const App = () => {
       <h1>
         Project 2
       </h1>
-      <Addition />
+      <Addition numberOne = '1'/>
+      <Addition numberOne = '3'/>
+      <Addition numberOne = '6'/>
     </>
   );
 };
